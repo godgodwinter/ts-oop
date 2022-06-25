@@ -6,4 +6,4 @@ let x = { a: 1, b: 2, c: 3, d: 4 };
 
 console.log(getProperty(x, "a"));
 console.log(getProperty(x, "c"));
-console.log(getProperty(x, "z")); //error karena tidak ada dalam optional x
+// console.log(getProperty(x, "z")); //error karena tidak ada dalam optional x
